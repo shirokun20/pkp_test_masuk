@@ -113,7 +113,7 @@ class PostFormController extends GetxController {
           _snackBar(
             backgroundColor: Colors.green,
             title: "Sukses",
-            message: "Sukses menambah data.",
+            message: "Sukses menambah data. 👍",
             onStatus: (status) {
               if (status == SnackbarStatus.CLOSED) {
                 Get.offNamedUntil(AppRoute.postData, (route) => false);
@@ -125,7 +125,7 @@ class PostFormController extends GetxController {
           _snackBar(
             backgroundColor: Colors.red,
             title: "Error",
-            message: "Gagal menambah data.",
+            message: "Gagal menambah data. 🙏",
           );
         },
         onDone: () {
@@ -169,7 +169,7 @@ class PostFormController extends GetxController {
           _snackBar(
             backgroundColor: Colors.green,
             title: "Sukses",
-            message: "Sukses mengubah data.",
+            message: "Sukses mengubah data. 👍",
             onStatus: (status) {
               if (status == SnackbarStatus.CLOSED) {
                 Get.offNamedUntil(AppRoute.postData, (route) => false);
@@ -182,7 +182,7 @@ class PostFormController extends GetxController {
           _snackBar(
             backgroundColor: Colors.red,
             title: "Error",
-            message: "Gagal mengubah data.",
+            message: "Gagal mengubah data. 🙏",
           );
         },
         onDone: () {
