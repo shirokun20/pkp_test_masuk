@@ -1,0 +1,36 @@
+name: flutter_base_mobile
+description: PKP Flutter Project
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  rxdart: 0.27.7
+  dio: 5.3.2
+  flutter_secure_storage: 9.0.0
+  intl: 0.18.1
+  permission_handler: 11.0.0
+  flutter_svg: 2.0.7
+  get: 4.6.6
+  logger: 2.0.2
+  image_picker: 1.0.4
+  uuid: 4.0.0
+  maps_launcher: ^2.0.1
+  package_info_plus: 4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 2.0.3
+
+
+flutter:
+  uses-material-design: true
